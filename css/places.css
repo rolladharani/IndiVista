@@ -1,0 +1,546 @@
+.state-header {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.header-left button.go-back-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-left button.go-back-btn:hover {
+    background-color: #d32f2f;
+}
+
+.header-center h1 {
+    font-size: 22px;
+    text-align: center;
+    color: #333;
+    margin: 5px 0;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-right img.logo_home {
+    height: 40px;
+    width: auto;
+}
+
+.header-right .indivista-text {
+    font-weight: bold;
+    color: #f44336;
+    font-size: 18px;
+}
+
+.header-right a.review-icon-link img {
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.header-right a.review-icon-link img:hover {
+    transform: scale(1.1);
+}
+@media (max-width: 900px) {
+    .header-content {
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .header-left,
+    .header-right {
+        flex: 1 1 100%;
+        display: flex;
+        justify-content: center;
+        margin: 5px 0;
+    }
+    .header-center h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-left button.go-back-btn {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .header-right .indivista-text {
+        font-size: 16px;
+    }
+}
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #555;
+    margin: 10px 0;
+}
+
+footer .copyright {
+    margin-top: 5px;
+}
+@media (max-width: 600px) {
+    footer {
+        font-size: 13px;
+        padding: 12px 10px;
+    }
+}
+
+p{
+  font-family:Poppins, sans-serif;
+  position: relative;
+  left:350px;
+  font-size:20px;
+  margin:20px;
+  color:navy;
+}
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%; 
+    background-image: url("../images/map.jpeg");
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.JK{
+    font-size:10px;
+    color: black ;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:7.5%;
+    left:42%;
+    font-weight: bold;  
+}
+.JK a{
+text-decoration: none;
+color:inherit;
+}
+.pb{
+    font-size:10px;
+    color: darkblue ;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:20.5%;
+    left:39.9%;
+    font-weight: bold;  
+}
+.pb a{
+text-decoration: none;
+color:inherit;
+}
+
+.HP{
+    font-size:10px;
+    color: red;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:16.5%;
+    left:42%;
+    font-weight: bold;  
+}
+.HP a{
+text-decoration: none;
+color:inherit;
+}
+.UK{
+    font-size:10px;
+    color: red;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:23%;
+    left:44.3%;
+    font-weight: bold;  
+}
+.UK a{
+text-decoration: none;
+color:inherit;
+}
+.Har{
+    font-size:10px;
+    color: darkblue;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:25.3%;
+    left:40.7%;
+    font-weight: bold;  
+}
+.Har a{
+text-decoration: none;
+color:inherit;
+}
+.Raj{
+    font-size:10px;
+    color: white;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:33%;
+    left:37%;
+    font-weight: bold;  
+}
+.Raj a{
+text-decoration: none;
+color:inherit;
+}
+.Guj{
+    font-size:10px;
+    color: darkgreen;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:44%;
+    left:34.7%;
+    font-weight: bold;  
+}
+.Guj a{
+text-decoration: none;
+color:inherit;
+}
+.MP{
+    font-size:10px;
+    color: yellow;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:44%;
+    left:42%;
+    font-weight: bold;  
+}
+.MP a{
+text-decoration: none;
+color:inherit;
+}
+.UP{
+    font-size:10px;
+    color: black;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:32%;
+    left:46%;
+    font-weight: bold;  
+}
+.UP a{
+text-decoration: none;
+color:inherit;
+}
+.Bihar{
+    font-size:10px;
+    color: black;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:35.5%;
+    left:54%;
+    font-weight: bold;  
+}
+.Bihar a{
+text-decoration: none;
+color:inherit;
+}
+.Jhar{
+    font-size:10px;
+    color: white;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:42%;
+    left:53%;
+    transform:rotate(-38deg);
+    font-weight: bold;  
+}
+.Jhar a{
+text-decoration: none;
+color:inherit;
+}
+.WB{
+    font-size:10px;
+    color: greenyellow;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:43%;
+    left:56.60%;
+    font-weight: bold;  
+}
+.WB a{
+text-decoration: none;
+color:inherit;
+}
+.sik{
+    font-size:10px;
+    color: red;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:30%;
+    left:58.2%;
+    font-weight: bold;  
+}
+.sik a{
+text-decoration: none;
+color:inherit;
+}
+.Arp{
+    font-size:10px;
+    color: darkblue;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:26.75%;
+    left:65.5%;
+    font-weight: bold;  
+}
+.Arp a{
+text-decoration: none;
+color:inherit;
+}
+.As{
+    font-size:10px;
+    color: white;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:32.9%;
+    left:63.2%;
+    font-weight: bold;  
+}
+.As a{
+text-decoration: none;
+color:inherit;
+}
+.meg{
+    font-size:10px;
+    color: darkblue;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:36%;
+    left:60%;
+    font-weight: bold;  
+}
+.meg a{
+text-decoration: none;
+color:inherit;
+}
+.tr{
+    font-size:10px;
+    color: black;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:42%;
+    left:61%;
+    font-weight: bold;  
+}
+.tr a{
+text-decoration: none;
+color:inherit;
+}
+.ng{
+    font-size:10px;
+    color: rgb(16, 203, 63);
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:33.5%;
+    left:66.2%;
+    font-weight: bold;  
+}
+.ng a{
+text-decoration: none;
+color:inherit;
+}
+.ma{
+    font-size:10px;
+    color: rgb(31, 170, 180);
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:37.5%;
+    left:65%;
+    font-weight: bold;  
+}
+.ma a{
+text-decoration: none;
+color:inherit;
+}
+.mz{
+    font-size:10px;
+    color: rgb(100, 0, 100);
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:42%;
+    left:63.9%;
+    font-weight: bold;  
+}
+.mz a{
+text-decoration: none;
+color:inherit;
+}
+.mr{
+    font-size:10px;
+    color: white;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:56%;
+    left:38%;
+    font-weight: bold;  
+}
+.mr a{
+text-decoration: none;
+color:inherit;
+}
+.ch{
+    font-size:10px;
+    color: darkblue;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:50%;
+    left:47.5%;
+    transform: rotate(-50deg);
+    font-weight: bold;  
+}
+.ch a{
+text-decoration: none;
+color:inherit;
+}
+.od{
+    font-size:10px;
+    color: black;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:52%;
+    left:52%;
+    font-weight: bold;  
+}
+.od a{
+text-decoration: none;
+color:inherit;
+}
+.Ts{
+    font-size:10px;
+    color: black;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:61%;
+    left:44%;
+    font-weight: bold;  
+}
+.Ts a{
+text-decoration: none;
+color:inherit;
+}
+.Ap{
+    font-size:10px;
+    color: white ;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:66%;
+    left:45%;
+    transform:rotate(-38deg);
+    font-weight: bold;   
+}
+.Ap a{
+text-decoration: none;
+color:inherit;
+}
+.ka{
+    font-size:10px;
+    color: yellow;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:73.5%;
+    left:40%;
+    font-weight: bold;  
+}
+.ka a{
+text-decoration: none;
+color:inherit;
+}
+.Go{
+    font-size:10px;
+    color: darkgreen;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:67.5%;
+    left:37.7%;
+    font-weight: bold;  
+}
+.Go a{
+text-decoration: none;
+color:inherit;
+}
+.ke{
+    font-size:10px;
+    color: black;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:83%;
+    left:40.7%;
+    transform:rotate(60deg);
+    font-weight: bold;  
+}
+.Ke a{
+text-decoration: none;
+color:inherit;
+}
+.Tn{
+    font-size:10px;
+    color: darkblue;
+    font-family:Poppins,sans-serif;
+    font-style: italic;
+    position: absolute;
+    top:82.5%;
+    left:42.7%;
+    font-weight: bold;  
+}
+.Tn a{
+text-decoration: none;
+color:inherit;
+}
